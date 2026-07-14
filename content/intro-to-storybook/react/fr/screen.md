@@ -338,7 +338,7 @@ Ne pouvons-nous pas automatiser ce flux et tester nos interactions entre les com
 
 ### Écrire un test de composant en utilisant la fonction play
 
-La fonction [`play`](https://storybook.js.org/docs/writing-stories/play-function) de Storybook et [`@storybook/addon-interactions`](https://storybook.js.org/docs/writing-tests/component-testing) nous aident avec cela. Une fonction play inclut de petits extraits de code qui s'exécutent après le rendu de la story.
+La fonction [`play`](https://storybook.js.org/docs/writing-stories/play-function) de Storybook et [`@storybook/addon-interactions`](https://storybook.js.org/docs/writing-tests/interaction-testing) nous aident avec cela. Une fonction play inclut de petits extraits de code qui s'exécutent après le rendu de la story.
 
 La fonction play nous aide à vérifier les changements d'UI quand les tâches sont mises à jour. Elle utilise les API du DOM, agnostiques du type de librairie utilisé, ce qui signifie que nous pouvons écrire des stories avec cette fonction pour interagir avec l'UI et simuler des actions utilisateurs, quelque soit la librarie front utilisée.
 
@@ -457,7 +457,7 @@ yarn test-storybook --watch
 
 <div class="aside">
 
-💡 Les tests d'interactions avec la fonction play sont une manière fantastique de tester vos composants d'UI. Ils peuvent faire plein plus que ce que nous avons parcouru. Nous vous encourageons à lire la [documentation officielle](https://storybook.js.org/docs/writing-tests/component-testing) pour en savoir plus.
+💡 Les tests d'interactions avec la fonction play sont une manière fantastique de tester vos composants d'UI. Ils peuvent faire plein plus que ce que nous avons parcouru. Nous vous encourageons à lire la [documentation officielle](https://storybook.js.org/docs/writing-tests/interaction-testing) pour en savoir plus.
 
 Pour creuser encore plus les tests, vous pouvez lire le [Guide des Tests](/ui-testing-handbook/). Il agrège les stratégies de tests utilisées par les équipes front reconnues afin de vous faire accélérer votre flux de développement.
 
